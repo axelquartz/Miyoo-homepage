@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+}
+
+main{
+    padding: 100px 0;
+    background-color: violet;
+    border: solid 2px blue;
+}
+main>h1{
+    text-align: center;
+}
+/*Header*/
+header{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: aqua;
+
+}
+li{
+    justify-content: space-around;
+    margin: auto 20px;
+}
+
+/*Hero*/
+#hero{
+    background-color: aquamarine;
+    padding: 240px 100px;
+    text-align: center;
+}
+
+/*Products*/
+#product-cards{
+    display: flex;
+    background-color: yellow;
+    justify-content: space-around;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    text-align: center;
+    justify-content: center;
+    width: 20%;
+    margin: 40px auto;
+}
+.card-item p{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 20px auto;
+}
+.image-card{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 20px auto;
+}
+
+/*Teammates*/
+#team{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+.teammate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+    width: 25%;
+}
+.teammate img{
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    margin: 20px;
+}
